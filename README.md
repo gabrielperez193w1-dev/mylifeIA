@@ -1,0 +1,2 @@
+# mylifeIA
+una ia personal 
