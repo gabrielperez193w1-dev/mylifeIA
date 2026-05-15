@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>mylifeIA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>mylifeIA</title>
+
+<style>
+
+body{
+background:black;
+color:#00ff00;
+font-family:monospace;
+text-align:center;
+padding-top:100px;
+}
+
+h1{
+font-size:45px;
+text-shadow:0 0 20px #00ff00;
+}
+
+p{
+font-size:20px;
+}
+
+button{
+background:#00ff00;
+border:none;
+padding:15px;
+font-size:18px;
+margin-top:20px;
+}
+
+</style>
 </head>
-<body style="background:black;color:#00ff00;font-family:monospace;">
+
+<body>
 
 <h1>mylifeIA</h1>
 
 <p>IA personal iniciada...</p>
+
+<button onclick="hablar()">
+Iniciar IA
+</button>
+
+<script>
+
+function hablar(){
+alert("Hola Gabriel, soy mylifeIA");
+}
+
+</script>
 
 </body>
 </html>
